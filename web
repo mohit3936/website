@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEB PRAROZ</title>
+    <link rel="stylesheet" href="/style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    font-family: centure;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://static.toiimg.com/thumb/53205522.cms?imgsize=302803&width=800&height=800);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.sub-menu{
+    display: none;
+    top: 6;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src=>
+            </div>
+            <ul>
+                <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="http://crazymasalafood.com/wp-content/images/20-Most-Popular-Vegetarian-Dishes-Of-India.jpg">About</a></li>
+               
+                <li><a href="https://gooroo-blog.s3.us-east-1.amazonaws.com/2021/02/22104711/bozhin-karaivanov-m5Ft3bsalhQ-unsplash.jpg">Pasta</a></li>
+                <li><a href="https://crazymasalafood.com/wp-content/images/Top-20-Types-Of-Salads.jpg">Salad</a></li>
+                <li><a href="https://cdn.tasteatlas.com//images/dishes/712012775c5146a7bd0b9e095499e72e.jpg">Burger</a></li>
+                <li><a href="https://i.pinimg.com/originals/84/e6/37/84e637c520106739897e076259e37c05.jpg">Pizza</a></li>
+                <li><a href="#"><i class="fa fa-caret-down"></i>More Recipes</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="https://i.pinimg.com/736x/9f/00/6a/9f006a39996c016deb04619d83235949.jpg">cookies</a></li>
+                        <li><a href="https://www.lacademie.com/wp-content/uploads/2022/03/sandwich-types.jpg">sandwhic</a></li>
+                    </ul>
+                </div>
+                </li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>HOME RECIPES</h1>
+        </div>
+        <div class="button">
+            <a href="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRSKJ4no2_IJwSX92e4IiWXVmGW9yDTM0s2kQ" class="btn">WATCH VIDEOS</a>
+            <a href="https://img.yumpu.com/54077971/1/500x640/now-youre-cooking-basic-skills-for-living.jpg" class="btn">BASIC SKILLS</a>
+            <a href="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTqNuznRpuJf77cbS6tyTG8bXTH1KXbb6-AcA" class="btn">LEARN MORE</a>
+        </div>
+    </header>
+</body>
+</html>
